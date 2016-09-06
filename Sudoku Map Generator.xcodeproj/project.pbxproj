@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A76AFC91A835EDB00CCCFA7 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A76AFC81A835EDB00CCCFA7 /* Graphics.swift */; };
+		1AC3B5171A7367460007FB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3B5161A7367460007FB42 /* AppDelegate.swift */; };
+		1AC3B5191A7367460007FB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3B5181A7367460007FB42 /* ViewController.swift */; };
+		1AC3B51B1A7367460007FB42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3B51A1A7367460007FB42 /* Images.xcassets */; };
+		1AC3B51E1A7367460007FB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC3B51C1A7367460007FB42 /* Main.storyboard */; };
+		1AC3B52A1A7367460007FB42 /* Sudoku_Map_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3B5291A7367460007FB42 /* Sudoku_Map_GeneratorTests.swift */; };
+		1AC3B5341A7369CE0007FB42 /* ReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3B5331A7369CE0007FB42 /* ReadWrite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC3B5241A7367460007FB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC3B5091A7367460007FB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC3B5101A7367460007FB42;
+			remoteInfo = "Sudoku Map Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A76AFC81A835EDB00CCCFA7 /* Graphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		1AC3B5111A7367460007FB42 /* Sudoku Map Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudoku Map Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC3B5151A7367460007FB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC3B5161A7367460007FB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AC3B5181A7367460007FB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC3B51A1A7367460007FB42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AC3B51D1A7367460007FB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC3B5231A7367460007FB42 /* Sudoku Map GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sudoku Map GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC3B5281A7367460007FB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC3B5291A7367460007FB42 /* Sudoku_Map_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_Map_GeneratorTests.swift; sourceTree = "<group>"; };
+		1AC3B5331A7369CE0007FB42 /* ReadWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadWrite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC3B50E1A7367460007FB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC3B5201A7367460007FB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC3B5081A7367460007FB42 = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5131A7367460007FB42 /* Sudoku Map Generator */,
+				1AC3B5261A7367460007FB42 /* Sudoku Map GeneratorTests */,
+				1AC3B5121A7367460007FB42 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		1AC3B5121A7367460007FB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5111A7367460007FB42 /* Sudoku Map Generator.app */,
+				1AC3B5231A7367460007FB42 /* Sudoku Map GeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC3B5131A7367460007FB42 /* Sudoku Map Generator */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5161A7367460007FB42 /* AppDelegate.swift */,
+				1AC3B5181A7367460007FB42 /* ViewController.swift */,
+				1A76AFC81A835EDB00CCCFA7 /* Graphics.swift */,
+				1AC3B5331A7369CE0007FB42 /* ReadWrite.swift */,
+				1AC3B51A1A7367460007FB42 /* Images.xcassets */,
+				1AC3B51C1A7367460007FB42 /* Main.storyboard */,
+				1AC3B5141A7367460007FB42 /* Supporting Files */,
+			);
+			path = "Sudoku Map Generator";
+			sourceTree = "<group>";
+		};
+		1AC3B5141A7367460007FB42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5151A7367460007FB42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AC3B5261A7367460007FB42 /* Sudoku Map GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5291A7367460007FB42 /* Sudoku_Map_GeneratorTests.swift */,
+				1AC3B5271A7367460007FB42 /* Supporting Files */,
+			);
+			path = "Sudoku Map GeneratorTests";
+			sourceTree = "<group>";
+		};
+		1AC3B5271A7367460007FB42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AC3B5281A7367460007FB42 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC3B5101A7367460007FB42 /* Sudoku Map Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC3B52D1A7367460007FB42 /* Build configuration list for PBXNativeTarget "Sudoku Map Generator" */;
+			buildPhases = (
+				1AC3B50D1A7367460007FB42 /* Sources */,
+				1AC3B50E1A7367460007FB42 /* Frameworks */,
+				1AC3B50F1A7367460007FB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sudoku Map Generator";
+			productName = "Sudoku Map Generator";
+			productReference = 1AC3B5111A7367460007FB42 /* Sudoku Map Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC3B5221A7367460007FB42 /* Sudoku Map GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC3B5301A7367460007FB42 /* Build configuration list for PBXNativeTarget "Sudoku Map GeneratorTests" */;
+			buildPhases = (
+				1AC3B51F1A7367460007FB42 /* Sources */,
+				1AC3B5201A7367460007FB42 /* Frameworks */,
+				1AC3B5211A7367460007FB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC3B5251A7367460007FB42 /* PBXTargetDependency */,
+			);
+			name = "Sudoku Map GeneratorTests";
+			productName = "Sudoku Map GeneratorTests";
+			productReference = 1AC3B5231A7367460007FB42 /* Sudoku Map GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC3B5091A7367460007FB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LinO_dska;
+				TargetAttributes = {
+					1AC3B5101A7367460007FB42 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1AC3B5221A7367460007FB42 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1AC3B5101A7367460007FB42;
+					};
+				};
+			};
+			buildConfigurationList = 1AC3B50C1A7367460007FB42 /* Build configuration list for PBXProject "Sudoku Map Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC3B5081A7367460007FB42;
+			productRefGroup = 1AC3B5121A7367460007FB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC3B5101A7367460007FB42 /* Sudoku Map Generator */,
+				1AC3B5221A7367460007FB42 /* Sudoku Map GeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC3B50F1A7367460007FB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3B51B1A7367460007FB42 /* Images.xcassets in Resources */,
+				1AC3B51E1A7367460007FB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC3B5211A7367460007FB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC3B50D1A7367460007FB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3B5191A7367460007FB42 /* ViewController.swift in Sources */,
+				1AC3B5171A7367460007FB42 /* AppDelegate.swift in Sources */,
+				1A76AFC91A835EDB00CCCFA7 /* Graphics.swift in Sources */,
+				1AC3B5341A7369CE0007FB42 /* ReadWrite.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC3B51F1A7367460007FB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC3B52A1A7367460007FB42 /* Sudoku_Map_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC3B5251A7367460007FB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC3B5101A7367460007FB42 /* Sudoku Map Generator */;
+			targetProxy = 1AC3B5241A7367460007FB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AC3B51C1A7367460007FB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC3B51D1A7367460007FB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AC3B52B1A7367460007FB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Ounchecked";
+			};
+			name = Debug;
+		};
+		1AC3B52C1A7367460007FB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AC3B52E1A7367460007FB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sudoku Map Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Ounchecked";
+			};
+			name = Debug;
+		};
+		1AC3B52F1A7367460007FB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sudoku Map Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AC3B5311A7367460007FB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sudoku Map GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudoku Map Generator.app/Contents/MacOS/Sudoku Map Generator";
+			};
+			name = Debug;
+		};
+		1AC3B5321A7367460007FB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sudoku Map GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudoku Map Generator.app/Contents/MacOS/Sudoku Map Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC3B50C1A7367460007FB42 /* Build configuration list for PBXProject "Sudoku Map Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC3B52B1A7367460007FB42 /* Debug */,
+				1AC3B52C1A7367460007FB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC3B52D1A7367460007FB42 /* Build configuration list for PBXNativeTarget "Sudoku Map Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC3B52E1A7367460007FB42 /* Debug */,
+				1AC3B52F1A7367460007FB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC3B5301A7367460007FB42 /* Build configuration list for PBXNativeTarget "Sudoku Map GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC3B5311A7367460007FB42 /* Debug */,
+				1AC3B5321A7367460007FB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC3B5091A7367460007FB42 /* Project object */;
+}
